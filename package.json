@@ -1,0 +1,41 @@
+{
+  "name": "capacitor-test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "add:ios": "npx cap add ios",
+    "add:android": "npx cap add android",
+    "sync": "npx cap sync",
+    "sync:android": "npx cap sync android",
+    "sync:ios": "npx cap sync ios",
+    "trapeze:android": "npx trapeze run trapeze_android.yml -y",
+    "trapeze:ios": "npx trapeze run trapeze_ios.yml -y",
+    "run:android": "npx cap run android",
+    "run:ios": "npx cap run ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrigardi90/capacitor-example.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adrigardi90/capacitor-example/issues"
+  },
+  "homepage": "https://github.com/adrigardi90/capacitor-example#readme",
+  "dependencies": {
+    "@capacitor/android": "^4.1.0",
+    "@capacitor/camera": "^4.1.0",
+    "@capacitor/cli": "^4.6.0",
+    "@capacitor/core": "^4.6.0",
+    "@capacitor/device": "^4.0.1",
+    "@capacitor/filesystem": "^4.1.0",
+    "@capacitor/ios": "^4.1.0",
+    "@capacitor/splash-screen": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@trapezedev/configure": "^7.0.6",
+    "dotenv": "^16.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+# npm output
+node_modules
+
+# capacitor output
+/android
+/ios
+
+# capacitor-assets generates files
+/icons
+
+# IDE configuration
+.idea/
+.history
+.env
