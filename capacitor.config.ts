@@ -7,7 +7,10 @@ const config: CapacitorConfig = {
   bundledWebRuntime: false,
   appendUserAgent: `test`,
   server: {
-    // Empty page just for the example
+    /**
+     * Empty page just for the example
+     * Change to http: http://staging-http.skilling.com/index.html to see how it has no issues
+     */
     url: "https://devtest.skilling.com/index.html",
     cleartext: true,
     androidScheme: "https",
